@@ -1,0 +1,92 @@
+body {
+    background-color: rgba(560, 200, 80, 0.548);
+}
+
+img {
+    width: 50%;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    height: 36px;
+    background-color: black;
+    font-style: oblique;
+    font-size: 13px;
+    line-height: 36px;
+}
+
+li {
+    float: left;
+    border-right: 1px solid yellowgreen;
+}
+
+a {
+    display: block;
+    padding: 0 50px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover,
+.active a {
+    background-color: turquoise;
+}
+
+th {
+    text-align: left;
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+
+div {
+    width: 290px;
+    border: 10px groove;
+    padding: 3px;
+    margin: 1px;
+}
+
+h1 {
+    font-style: bold;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    ...
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    ...
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    ...
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    ...
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    ...
+}
